@@ -1,0 +1,140 @@
+.editprofile-parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.edit-profile-container{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-change-parent{
+    /* margin-top: 20px; */
+    height: 70px;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.image-change-conatiner{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.image-name-edit{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-name-edit div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.image-name-edit div img{
+   width: 100px;
+}
+
+.edit-button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.edit-button:hover{
+    background-color: rgb(188, 188, 188);
+}
+
+.bio-change-parent{
+    height: 100px;
+    width: 50%;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-change-container{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.bio-input{
+    height: 40px;
+    width: 90%;
+    border-radius: 7px;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+}
+
+.bio-input input{
+    width: 98%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+.gender-select{
+    height: 40px;
+}
+
+.gender-select option{
+    background-color: grey;
+}
+
+.edit-submit{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 35px;
+    width: 200px;
+    background-color: rgb(114, 114, 255);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.edit-submit:hover{
+    background-color: rgb(77, 77, 253);
+}
+
+@media (max-width: 900px) {
+    .image-change-parent{
+        width: 90%;
+    }
+}

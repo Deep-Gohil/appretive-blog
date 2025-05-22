@@ -1,0 +1,293 @@
+[{
+  "_id": {
+    "$oid": "6826f9a02a0470f1cf07c233"
+  },
+  "title": "ChatGPT",
+  "description": "Let’s be honest. We all kinda wish we had a robot friend to do our homework, right? Well, welcome to the age of ChatGPT—your AI-powered buddy who doesn’t eat, sleep, or judge your weird 2 AM questions. Created by OpenAI (a team of really smart folks who drink a lot of coffee), ChatGPT is like that kid in class who always had the right answers but was somehow still cool about it. It can write essays, help you code, explain things like you’re five, or just keep you company when you're bored. But don’t get it twisted—it’s not magic. It’s just really good at predicting what words go together based on a ridiculous amount of internet reading. And yeah, sometimes it confidently says something totally wrong. We call that “AI hallucination”—it’s like dreaming, but in code. Still, whether you’re building apps or trying to win arguments with your friends, ChatGPT has your back. Just don’t ask it to do your dishes. Yet.",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T08:38:56.411Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:20:08.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826f9d62a0470f1cf07c235"
+  },
+  "title": "OpenAI",
+  "description": "OpenAI isn’t a secret underground tech cult—though it does sound like one. It’s actually the team that built ChatGPT, DALL·E, Codex, and a bunch of other sci-fi-sounding tools that somehow already exist. Their mission? To make artificial intelligence that actually helps humanity instead of destroying it. Nice. Think of OpenAI like the Tony Stark of the tech world, minus the Iron Man suit (so far). They make tools that help people write code, generate images, understand natural language, and sometimes write questionable haikus about cheese. They’re also super serious about safety and ethics, which is why they don’t let AI do anything shady—like hacking your grandma’s Facebook. So if you’re using something that feels way too smart to be free, it probably came from OpenAI. Just don’t blame them when your boss finds out AI wrote your entire presentation.",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T08:39:50.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:20:30.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826f9f52a0470f1cf07c238"
+  },
+  "title": "Hacking",
+  "description": "When most people hear “hacking,” they imagine a dude in a hoodie typing furiously in a dark room with green code flying everywhere. But real hacking isn’t always that dramatic—or illegal. There are good hackers, called “white hats,” who break into systems to find flaws and make them safer. Then there are “black hats,” who are the digital version of cartoon villains. And of course, the “gray hats,” who just like chaos. Hacking is all about understanding systems really, really well—like knowing how a lock works so you can test if it’s secure. Ethical hacking is a legit career path, and companies actually pay people to try and break their apps (with permission, of course). So no, you don’t need to be a criminal mastermind. You just need curiosity, patience, and a love for weird problems. And maybe a hoodie for the aesthetic.",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T08:40:21.779Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:20:52.278Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826fd770ff310ab567bf25d"
+  },
+  "title": "JavaScript Basics",
+  "description": "JavaScript is like the prankster of programming languages. Sometimes it behaves, and sometimes it gives you NaN and laughs at your confusion. But love it or hate it, JavaScript is everywhere. It powers websites, web apps, mobile apps, and occasionally your mental breakdown during debugging. The basics are simple: variables, functions, loops, if/else, and of course, the infamous console.log(). It’s how most developers start, and it’s probably why most developers have trust issues. JavaScript runs in the browser, which means if you want buttons that do things or animations that make your site look cool, JS is your go-to. It’s not perfect—it lets you do weird stuff like [] + {}—but once you understand the basics, you’ll realize it’s incredibly flexible. And like that one chaotic friend, JavaScript keeps things interesting.",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T08:55:19.413Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:21:07.016Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826fd930ff310ab567bf25f"
+  },
+  "title": "React Hooks Explained",
+  "description": "React Hooks came into the scene like, “What if coding didn’t suck?” and developers everywhere rejoiced. Before Hooks, React made you write long class components just to keep track of a counter. Now, with useState, you can do that in one line. Magic! Hooks are functions that let you “hook” into React’s features without using classes. useEffect is for side effects, like fetching data or syncing to localStorage. useContext shares data without passing props through 5 layers of components like a hot potato. Hooks make code cleaner, easier to read, and 1000% more fun to write (depending on how you define fun). Once you go Hooks, you don’t go back. Just don’t put them inside loops or conditionals or React will scold you like an angry parent.",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T08:55:47.386Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:21:25.255Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826fe904a7f2aeb54972e0f"
+  },
+  "title": "Mastering CSS Grid",
+  "description": "CSS Grid is what happens when someone looked at web layouts and said, “What if this wasn’t a nightmare?” Grid lets you place elements in rows and columns, giving you full control over your layout like a puppet master. Want a 3-column layout that magically adapts to screen sizes? Done. Want one box to take up two rows and the other to just chill in the corner? Easy. With Grid, you can declare your layout in a few lines and never scream “why is this div floating here?!” ever again. Of course, the syntax can feel like you’re casting spells (grid-template-areas sounds suspiciously magical), but once it clicks, it changes everything. Combine Grid with media queries and you’ll be making responsive layouts so good, even your CSS teacher will cry tears of joy. Mastering Grid won’t just improve your sites—it’ll restore your sanity.",
+  "createdBy": {
+    "$oid": "6826fe7c4a7f2aeb54972e0d"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T09:00:00.104Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:22:09.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826feaf4a7f2aeb54972e11"
+  },
+  "title": "Git & GitHub Crash Course",
+  "description": "Git is like your code’s save button—but on steroids. It tracks every little change, so you can go back in time and undo all your coding crimes. GitHub, on the other hand, is the social media of code. You push your code there, collaborate with teammates, and show off your project like it's your pet hamster doing tricks. The basic Git commands are your toolkit: git init, git add, git commit, and of course, the mighty git push. It feels amazing until you run into a merge conflict and suddenly wish you’d become a baker instead. But once you learn to branch out (literally) and manage your versions, you’ll wonder how you ever lived without it. Just remember: commit often, write useful messages (not “fixed stuff”), and never force push unless you're feeling extremely lucky.",
+  "createdBy": {
+    "$oid": "6826fe7c4a7f2aeb54972e0d"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T09:00:31.118Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:22:23.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826fed44a7f2aeb54972e13"
+  },
+  "title": "What is REST API?",
+  "description": "A REST API is like a waiter at a restaurant. You (the client) make a request (“I want pizza!”), and the server delivers it. It stands for Representational State Transfer, which sounds like a sci-fi teleportation device, but really it's just a way of structuring how systems talk to each other. With methods like GET (give me stuff), POST (create stuff), PUT (change stuff), and DELETE (remove stuff), REST APIs keep the digital world spinning. When your app needs data—from weather info to memes—it likely uses an API to get it. It’s all done over HTTP, the same thing that loads websites. You don’t need to worship REST, but understanding it is crucial if you're building anything that communicates over the internet. In short: APIs make apps talk, and REST makes sure they use their inside voices.",
+  "createdBy": {
+    "$oid": "6826fe7c4a7f2aeb54972e0d"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T09:01:08.297Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:22:36.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826feed4a7f2aeb54972e15"
+  },
+  "title": "Debugging Tips for Developers",
+  "description": "Debugging is a lot like detective work—with fewer trench coats and more crying. It starts with a bug: something’s broken and you don’t know why. First tip: don’t panic. Second tip: console.log() is your best friend. Print things out, inspect variables, and question everything. Read error messages like they’re fortune cookies from the JavaScript gods. Use breakpoints and debuggers in your browser—yes, they exist and they actually help. Learn to isolate the problem by commenting things out and adding them back one by one. Talk to a rubber duck (or a confused roommate); sometimes explaining the issue helps you solve it. And most importantly, take breaks. A bug that makes you rage at midnight will probably fix itself (or feel easier) with a good night's sleep and some snacks. Debugging isn’t failure—it’s you leveling up your brain.",
+  "createdBy": {
+    "$oid": "6826fe7c4a7f2aeb54972e0d"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T09:01:33.187Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:22:53.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826ff034a7f2aeb54972e17"
+  },
+  "title": "Web Performance Optimization",
+  "description": "You built a beautiful site, but it loads slower than a dial-up modem in 2002. Time for performance optimization! Start by measuring: tools like Lighthouse or WebPageTest can show you where things are sluggish. Images are often the biggest culprit—optimize and compress them like you’re putting them on a diet. Lazy-load content that’s not immediately visible. Minify your JavaScript and CSS, reduce the number of requests, and use a CDN to serve assets faster. Oh, and cache things! Browsers love caching. Avoid unnecessary libraries and keep third-party scripts under control—yes, even that one tracking script you forgot you added. Your goal: a fast, snappy, happy user experience. Because no one sticks around to admire your gradient buttons if your site takes 10 seconds to load.",
+  "createdBy": {
+    "$oid": "6826fe7c4a7f2aeb54972e0d"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T09:01:55.344Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:23:06.019Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826ff184a7f2aeb54972e19"
+  },
+  "title": "Building a Portfolio Website",
+  "description": "Your portfolio is your digital handshake. It’s how you show off your skills, personality, and how much you love semicolons. Start simple: who are you, what do you do, and what cool stuff have you built? Showcase your best projects with live links, GitHub repos, and a few sentences about what each project does (bonus points for funny ones). Use a clean, responsive layout—remember, recruiters use phones too. Don’t forget an “About Me” section with a human touch: yes, you can mention you love coffee or write code in your pajamas. Add a contact form or your LinkedIn/GitHub so people can reach you. Most importantly, keep it updated. No one’s impressed if your last project was “To-Do App 2019.” Make it yours—your voice, your colors, your style. This is your digital home, so show them who’s boss.",
+  "createdBy": {
+    "$oid": "6826fe7c4a7f2aeb54972e0d"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T09:02:16.138Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:23:19.215Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682708b4f11a07d3e3442936"
+  },
+  "title": "Building a Portfolio Website",
+  "description": "Create a professional developer portfolio to showcase your work.",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T09:43:16.494Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T09:43:16.494Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68270ae707e1ec7d6f83fef4"
+  },
+  "title": "Building a Mobile Weather app",
+  "description": "Building a mobile weather app sounds simple—until you realize you need an API, good UI, and accurate forecasts that don’t randomly say it’s raining frogs. First, get weather data using a service like OpenWeatherMap. It’ll give you everything from temperature and humidity to how sad the clouds look. Use React Native or Flutter to build the UI (or native tools if you’re feeling spicy). Add features like current location weather, search by city, and maybe a background that changes based on weather (everyone loves a moody sky animation). Make sure it works on all screen sizes, because your users range from smartwatch people to giant tablet owners. A little humor goes a long way—“It’s 39°C, maybe just melt today?” And of course, test it! No one wants a sunny notification while stuck in a thunderstorm. In short: keep it simple, beautiful, and functional. Bonus points if it makes people laugh and grab an umbrella.",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "createdAt": {
+    "$date": "2025-05-16T09:52:39.290Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-20T05:23:35.983Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682d625ea60c2331b9549cd5"
+  },
+  "title": "The Rise of Artificial Intelligence in Everyday Life",
+  "description": "Artificial Intelligence (AI) has made an incredible leap over the past decade, moving from a futuristic idea into a technology that shapes much of our everyday life. From the moment we wake up and check our phones to the time we relax by streaming a movie, AI is there — quietly but powerfully influencing our decisions, routines, and experiences.\n\nMost people don’t realize how integrated AI has become in their daily activities. When your phone unlocks with facial recognition, when Google suggests your next search word, or when your smart assistant reminds you of a meeting — these are all examples of AI working in real time. What once seemed like science fiction is now routine, reliable, and incredibly useful.\n\nThe workplace has seen one of the most significant impacts of AI integration. Automated systems streamline repetitive tasks, chatbots handle customer service around the clock, and AI-based analytics help managers make smarter decisions. In industries like finance, healthcare, and marketing, AI algorithms analyze massive data sets to predict trends, diagnose diseases, and create targeted campaigns.\n\nOne of the most exciting areas is healthcare. AI tools now assist doctors in detecting diseases earlier, such as cancer or Alzheimer’s, with remarkable accuracy. Robots can even assist in surgeries, providing steady hands and minimizing human error. Medical chatbots offer advice, book appointments, and follow up with patients, saving time and improving efficiency in clinics and hospitals.\n\nIn education, AI personalizes learning experiences for students. Platforms adapt content based on a learner’s speed and understanding, making education more inclusive and accessible. Teachers use AI to track student performance, identify gaps, and design better lessons. This tailored approach is changing the classroom dynamic forever.\n\nEntertainment and media are also evolving due to AI. Streaming platforms like Netflix or Spotify use AI to recommend content based on your history and behavior. Gaming companies implement AI to build smarter, more responsive game environments, while content creators use AI for scriptwriting, editing, and even voiceovers.\n\nEven our homes are becoming smarter. Devices like smart thermostats, vacuum robots, and AI-enabled lights learn your habits and adjust to save energy and improve comfort. Security systems recognize faces, detect motion, and notify homeowners instantly. AI has made homes not just smarter but also safer.",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-05-21T05:19:27.002Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-21T05:19:27.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682d62caa60c2331b9549cd7"
+  },
+  "title": "The Rise of Artificial Intelligence in Everyday Life",
+  "description": "Artificial Intelligence (AI) has made an incredible leap over the past decade, moving from a futuristic idea into a technology that shapes much of our everyday life. From the moment we wake up and check our phones to the time we relax by streaming a movie, AI is there — quietly but powerfully influencing our decisions, routines, and experiences.\n\nMost people don’t realize how integrated AI has become in their daily activities. When your phone unlocks with facial recognition, when Google suggests your next search word, or when your smart assistant reminds you of a meeting — these are all examples of AI working in real time. What once seemed like science fiction is now routine, reliable, and incredibly useful.\n\nThe workplace has seen one of the most significant impacts of AI integration. Automated systems streamline repetitive tasks, chatbots handle customer service around the clock, and AI-based analytics help managers make smarter decisions. In industries like finance, healthcare, and marketing, AI algorithms analyze massive data sets to predict trends, diagnose diseases, and create targeted campaigns.\n\nOne of the most exciting areas is healthcare. AI tools now assist doctors in detecting diseases earlier, such as cancer or Alzheimer’s, with remarkable accuracy. Robots can even assist in surgeries, providing steady hands and minimizing human error. Medical chatbots offer advice, book appointments, and follow up with patients, saving time and improving efficiency in clinics and hospitals.\n\nIn education, AI personalizes learning experiences for students. Platforms adapt content based on a learner’s speed and understanding, making education more inclusive and accessible. Teachers use AI to track student performance, identify gaps, and design better lessons. This tailored approach is changing the classroom dynamic forever.\n\nEntertainment and media are also evolving due to AI. Streaming platforms like Netflix or Spotify use AI to recommend content based on your history and behavior. Gaming companies implement AI to build smarter, more responsive game environments, while content creators use AI for scriptwriting, editing, and even voiceovers.\n\nEven our homes are becoming smarter. Devices like smart thermostats, vacuum robots, and AI-enabled lights learn your habits and adjust to save energy and improve comfort. Security systems recognize faces, detect motion, and notify homeowners instantly. AI has made homes not just smarter but also safer.",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-05-21T05:21:14.230Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-21T05:21:14.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682d66f4a60c2331b9549d0d"
+  },
+  "title": "3ewd",
+  "description": "ds",
+  "createdBy": {
+    "$oid": "6826ce2c703ad877ab0a870b"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-05-21T05:39:00.281Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-21T05:39:00.281Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682d7ac323056afd94239272"
+  },
+  "title": "fdsf",
+  "description": "dfdf",
+  "createdBy": {
+    "$oid": "682d778827c3f32f9a4cba04"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2025-05-21T07:03:31.540Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-21T07:03:31.540Z"
+  },
+  "__v": 0
+}]

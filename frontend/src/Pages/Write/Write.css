@@ -1,0 +1,119 @@
+.main-write {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.write-container {
+    margin-top: 20px;
+    background-color: white;
+    height: 500px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.write-text {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.write-form {
+    margin-top: 20px;
+    height: 55%;
+    width: 80%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    padding: 8px 4px;
+    background: transparent;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    margin-bottom: 10px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-bottom: 2px solid #333;
+}
+
+.form-group label {
+    font-size: 0.95rem;
+    color: black;
+    margin-left: 2px;
+}
+
+.write-form button {
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: #263238;
+    color: white;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+}
+
+.write-form button:hover {
+    background-color: #37474f;
+    color: white;
+}
+
+.error-admin {
+    height: 32px;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto 12px auto;
+    background: rgba(255, 255, 0, 0.7);
+    border: 1.5px solid #b3b300;       
+    border-radius: 6px;
+    backdrop-filter: blur(15px);      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.verify-ac-button{
+    height: 30px;
+    width: 100px;
+    background-color: grey;
+    color: white;
+    font-weight: 600;
+    margin-left: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .write-container {
+        width: 90vw;
+    }
+}

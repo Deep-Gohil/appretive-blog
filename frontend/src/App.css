@@ -1,0 +1,28 @@
+/* .loader-parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader{
+    margin-top: -50px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-inside{
+    height: 90px;
+    width: 90px;
+    background-color: black;
+    border-radius: 50%;
+} */

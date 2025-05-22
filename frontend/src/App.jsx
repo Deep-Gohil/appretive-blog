@@ -1,4 +1,5 @@
 import React from 'react'
+import "./App.css"
 import Navbar from './Components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home/Home'
@@ -18,6 +19,13 @@ import Footer from './Components/Footer/Footer'
 const App = () => {
   return (
     <div>
+      <div className="loader-parent">
+        <div className="loader">
+          <div className="loader-inside">
+            
+          </div>
+        </div>
+      </div>
       <Toaster/>
       <Navbar/>
       <Routes>

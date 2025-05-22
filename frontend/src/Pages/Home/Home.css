@@ -1,4 +1,4 @@
-.home-parent{
+.home-parent {
     margin-top: 10px;
     height: 100%;
     width: 100%;
@@ -6,7 +6,41 @@
     justify-content: center;
 }
 
-.home-container{
+.main-home-container {
+    height: 100%;
+    width: 100%;
+}
+
+.loader-main-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.loader-home {
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: grey;
+    --_m:
+        conic-gradient(#0000 10%, #000),
+        linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+    mask: var(--_m);
+    -webkit-mask-composite: source-out;
+    mask-composite: subtract;
+    animation: l3 1s infinite linear;
+}
+
+@keyframes l3 {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.home-container {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -14,7 +48,7 @@
     gap: 10px;
 }
 
-.blog-box-parent{
+.blog-box-parent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,12 +59,12 @@
     transition: box-shadow 0.3s, transform 0.3s;
 }
 
-.blog-box-container{
+.blog-box-container {
     height: 85%;
     width: 95%;
 }
 
-.home-user-dot{
+.home-user-dot {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -38,7 +72,7 @@
     text-align: center;
 }
 
-.home-user-section{
+.home-user-section {
     display: flex;
     height: 30px;
     width: 250px;
@@ -46,32 +80,32 @@
     text-align: center;
 }
 
-.home-user-section i{
+.home-user-section i {
     font-size: 1.3rem;
     margin-right: 10px;
 }
 
-.home-title-desc{
+.home-title-desc {
     height: 100px;
     width: 100%;
     margin-top: 10px;
 }
 
-.home-ago{
+.home-ago {
     margin-left: 3px;
 }
 
-.home-like-other{
+.home-like-other {
     width: 40%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.home-like-other div{
+.home-like-other div {
     cursor: pointer;
 }
 
-.home-read-more{
+.home-read-more {
     display: inline;
     font-size: large;
     font-weight: 600;
@@ -79,77 +113,79 @@
     cursor: pointer;
 }
 
-.home-desc{
+.home-desc {
     color: grey;
 }
 
-.fa-calendar{
+.fa-calendar {
     color: blue;
 }
 
-.fa-thumbs-up{
+.fa-thumbs-up {
     color: rgb(255, 194, 81);
 }
 
-.fa-comment{
+.fa-comment {
     color: #009688;
 }
 
-.fa-ellipsis-vertical{
+.fa-ellipsis-vertical {
     cursor: pointer;
 }
 
 .dropdown-dot {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-menu {
-  position: absolute;
-  top: 28px;
-  right: 0;
-  min-width: 160px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(-10px) scale(0.98);
-  transition: opacity 0.25s, transform 0.25s;
-  z-index: 10;
-  padding: 8px 0;
+    position: absolute;
+    top: 28px;
+    right: 0;
+    min-width: 160px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.13);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px) scale(0.98);
+    transition: opacity 0.25s, transform 0.25s;
+    z-index: 10;
+    padding: 8px 0;
 }
 
 .dropdown-menu.show {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translateY(0) scale(1);
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0) scale(1);
 }
 
 .dropdown-item {
-  padding: 10px 20px;
-  cursor: pointer;
-  color: #263238;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: background 0.2s;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #263238;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.2s;
 }
 
 .dropdown-item:hover {
-  background: rgb(216, 216, 216);
-  color: white;
+    background: rgb(216, 216, 216);
+    color: white;
 }
 
-.red{
+.red {
     color: red;
 }
 
+
 @media (max-width: 900px) {
-    .blog-box-parent{
+    .blog-box-parent {
         width: 85vw;
         height: 220px;
     }
-    .home-like-other{
+
+    .home-like-other {
         width: 250px;
         margin-top: 20px;
     }

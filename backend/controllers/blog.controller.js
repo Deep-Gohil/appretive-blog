@@ -22,7 +22,7 @@ const createBlog = async (req, res) => {
 
 const getAllBlogs = async (req, res) => {
     try {
-        const blogs = await Blog.find().populate("createdBy","id email username number image").populate("comments","text createdBy blog");
+        const blogs = await Blog.find().populate("createdBy","id email username number image");
         return res.status(200).json({ message: "Successfully fetched blogs", success: true, blogs });
     } catch (error) {
         return res.json({ message: error.message, success: false });

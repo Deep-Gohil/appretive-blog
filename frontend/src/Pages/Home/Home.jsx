@@ -38,6 +38,8 @@ const Home = () => {
     }
   }
 
+  console.log(blogs);
+  
   const blogDetails = (id) => {
     nav(`/blog-details/${id}`)
   }

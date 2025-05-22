@@ -7,7 +7,8 @@ import toast from 'react-hot-toast';
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = ({ children }) => {
-    const url = "http://localhost:8090/api";
+    // const url = "http://localhost:8090/api";
+    const url = "https://appretive-blog.onrender.com/api";
     const [userData, setUserData] = useState({});
     const [fetchedUser, setFetchedUser] = useState({});
     const [searchResult,setSearchResult] = useState("")
